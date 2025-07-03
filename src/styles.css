@@ -30,3 +30,14 @@ body {
     left: calc(50%  - 110px);
     top : 0;
 }
+
+#next, #prev{
+    position: absolute;
+    top : 40%;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-size: xxx-large;
+    font-family: monospace;
+    font-weight: bold;
+}
