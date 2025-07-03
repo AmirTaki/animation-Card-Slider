@@ -32,3 +32,8 @@ next.addEventListener('click', (e)=>{
     active = active + 1 < items.length ? active + 1 : active
     loadShow()
 })
+
+prev.addEventListener("click", (e)=> {
+    active = active - 1 >= 0  ? active - 1 : active 
+    loadShow()
+})
