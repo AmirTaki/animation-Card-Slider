@@ -23,7 +23,12 @@ const loadShow = () => {
         items[i].style.zIndex = -stt;
         items[i].style.filter = "blur(5px)"
         items[i].style.opacity = stt > 2 ? 0 : .6
-
     }
 }
 loadShow()
+
+
+next.addEventListener('click', (e)=>{
+    active = active + 1 < items.length ? active + 1 : active
+    loadShow()
+})
